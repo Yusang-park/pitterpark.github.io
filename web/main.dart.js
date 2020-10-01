@@ -30050,7 +30050,7 @@ $S:0}
 F.qt.prototype={
 aE:function(){return new F.EZ(D.a5X(null),new N.ba(null,t.jS),C.m)}}
 F.EZ.prototype={
-M:function(a,b){var s=null,r=F.bq(b,!1).a,q=L.dq("\uc775\uba85 \ucc44\ud305\uc5d0 \uc624\uc2e0 \uac83\uc744 \ud658\uc601\ud569\ub2c8\ub2e4. \ndev by pitter Park\nversion. 1.2",s,s,s,s,C.dj),p=T.fS(s,10,s),o=M.dA(s,Z.a5Z(this.d,L.a4z(s,s,s,s,s,s,s,!0,new F.eV(4,K.iD(25),new Y.cZ(C.cX,1,C.O)),s,s,s,s,s,s,C.j9,s,new F.eV(4,C.iP,new Y.cZ(C.cX,1,C.O)),s,!0,s,s,s,s,s,"\ub2c9\ub124\uc784\uc744 \uc785\ub825\ud558\uc138\uc694",s,s,!1,s,A.fY(s,s,C.cX,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),"Nickname",s,L.N7(C.wJ,C.cX),s,s,s,s,s,s,s,s,s),s,s,C.dj,s),s,s,s,s,s,s,new V.au(9,5,9,5),s,300),n=K.iD(25),m=L.dq("\uc2dc\uc791\ud558\uae30",s,s,s,A.fY(s,s,C.j,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s)
+M:function(a,b){var s=null,r=F.bq(b,!1).a,q=L.dq("\uc775\uba85 \ucc44\ud305\uc5d0 \uc624\uc2e0 \uac83\uc744 \ud658\uc601\ud569\ub2c8\ub2e4. \ndev by pitter Park\nversion. 1.3",s,s,s,s,C.dj),p=T.fS(s,10,s),o=M.dA(s,Z.a5Z(this.d,L.a4z(s,s,s,s,s,s,s,!0,new F.eV(4,K.iD(25),new Y.cZ(C.cX,1,C.O)),s,s,s,s,s,s,C.j9,s,new F.eV(4,C.iP,new Y.cZ(C.cX,1,C.O)),s,!0,s,s,s,s,s,"\ub2c9\ub124\uc784\uc744 \uc785\ub825\ud558\uc138\uc694",s,s,!1,s,A.fY(s,s,C.cX,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),"Nickname",s,L.N7(C.wJ,C.cX),s,s,s,s,s,s,s,s,s),s,s,C.dj,s),s,s,s,s,s,s,new V.au(9,5,9,5),s,300),n=K.iD(25),m=L.dq("\uc2dc\uc791\ud558\uae30",s,s,s,A.fY(s,s,C.j,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s)
 return M.a5K(s,new T.fJ(new V.au(0,30,0,0),T.fS(T.a10(H.d([q,p,o,new M.pj(M.a0T(!1,C.cX,s,s,s,36,s,s,C.oU,s,88,s,new X.c9(n,C.q),s,C.bA),new D.AT(new F.Xt(this,b),s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,m,s,s,s,C.V,s,!1,s,s,s),s)],t.Z),C.hb,C.mZ),s,r.a),s),this.e)}}
 F.Xt.prototype={
 $0:function(){var s,r=null,q=this.a
@@ -30081,9 +30081,9 @@ q="\uc624\ud6c4"}else q="\uc624\uc804"
 o.F(0,P.ai(["name",b,"message",a,"no",p+1,"time",q+" "+C.f.i(r)+":"+C.f.i(H.a5s(s))],t.X,t.z))
 this.e.im(0,C.t_)}}
 F.Wb.prototype={
-$1:function(a){var s
-if(a!=null){s=this.a
-s.Bc(s.e.a.a,s.a.c)}this.a.r.kL()},
+$1:function(a){var s=this.a,r=s.e.a.a
+if(r.length!==0)s.Bc(r,s.a.c)
+s.r.kL()},
 $S:115}
 F.Wc.prototype={
 $0:function(){var s=this.a,r=s.e.a.a
