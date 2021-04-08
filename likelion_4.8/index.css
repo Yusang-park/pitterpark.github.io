@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+header{
+    
+    top : 40px;
+    padding: 30px;
+    text-align: center;
+    background: skyblue;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+    
+    background:pink;
+    padding: 10px;
+    color: black;
+    
+}
+
+aside{
+    padding: 30px;
+    flex: 3;
+    background: grey;
+    /* 상대 절대 위치 (position이 선언된 곳 밖으로 나갈 수 없음) */
+    /* position: absolute; */
+  
+}
+
+nav > a {
+    padding: 5px;
+    text-decoration: none;
+    color: inherit; 
+    /* color:inherits; 조상 태그를 상속 */
+}
+
+
+article{
+    
+    padding: 30px;
+    flex: 7;
+    background: white;
+    /* 기존 위치에서 변화 position: relative  자동 inline - block 적용됨*/
+    
+}
+
+.container{
+    height: 600px;
+    display: flex;
+}
+
+.myimg{
+    border-radius: 50%;
+    border: 1px solid black;
+    padding-bottom: 10px;
+    
+    width:100px;
+    height: 100px;
+}
+
+footer{
+    padding:20px;
+    background: burlywood;
+    text-align: center;
+}
+
+.item > *{
+    padding: 10px;
+}
