@@ -1,0 +1,207 @@
+*{
+    
+    margin:0;
+    padding:0;
+}
+
+.iconButton{
+    border :none;
+    background-color: transparent;
+     width: 45px;
+    height: 45px;
+}
+
+.iconButton:hover{
+    background-color: lightgrey;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+
+input[type=text]:focus{
+    outline:none;
+    border: 2px solid rgb(234, 86, 126)
+}
+
+
+input[type=text]{
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline:none;
+    border : 1px solid rgb(234, 86, 126);
+    border-radius: 25%;
+    -webkit-border-radius: 20px;
+    /* -moz-border-radius: 20px; */
+    width:70%;
+    height:35px;
+    max-width: 500px;
+}
+
+
+
+
+header{
+    padding-left: 30px;
+    /* top : 40px; */
+    /* padding: 30px; */
+    text-align: center;
+    /* background: skyblue; */
+}
+
+nav{
+   
+    justify-content: flex-start;
+    /* align-items: flex-end; */
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    
+}
+
+
+footer{
+    width : 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+aside{
+    padding: 30px;
+    /* flex: 3; */
+    text-align: center;
+    
+    /* 상대 절대 위치 (position이 선언된 곳 밖으로 나갈 수 없음) */
+    /* position: absolute; */
+  
+}
+
+nav > a {
+    padding: 5px 5px 5px 30px;
+    text-decoration: none;
+    color: inherit; 
+    /* color:inherits; 조상 태그를 상속 */
+}
+
+nav > a:hover{
+    color:rgb(234, 86, 126);
+    font-weight: bold;
+}
+
+
+.menuContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subTitle{
+    margin-bottom: 20px;
+    color:rgb(234, 86, 126) ;
+}
+
+.issueSpace{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.issueContainer{
+    
+    text-align: left;
+    margin : 0 20px 20px 20px;
+}
+
+.writtenTime {
+    color: lightgray;
+    font-size: 11px;
+    /* position: absolute;
+    right: 10%; */
+}
+
+
+
+.recentPostSpace .categoryTitle {
+    color: rgb(105,211,218);
+    font-weight: bold;
+}
+
+postPreview{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    width : 30%;
+}
+
+postPreview > a{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+article{
+
+    padding-top: 30px;
+    padding-left: 15%;
+    flex: 7;
+    background: white;
+    /* 기존 위치에서 변화 position: relative  자동 inline - block 적용됨*/
+    
+}
+
+
+.logo{
+    /* border-radius: 50%; */
+    /* border: 1px solid black; */
+    padding-bottom: 10px;
+    
+    width:150px;
+    height: 150px;
+}
+
+.menuSpace{
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15%;
+     display: flex;
+     /* width: 600px; */
+        margin-bottom: 20px;
+        
+        
+        /* background-color: yellow; */
+   box-shadow: 5px 2px 5px  gray;
+}
+
+footer{
+    padding:20px;
+    background: burlywood;
+    text-align: center;
+}
+
+.item > *{
+    /* padding: 10px; */
+}
+
+.peopleImages{
+    width: 125px;
+    border: 1px solid lightgray;
+}
+
+.issueContainer > p{
+    font-size: 11px;
+}
+
+.issueContainer > h3{
+    flex: 1;
+    text-align: center;
+    color: darkred;
+}
+
+.petsImages{
+    width: 125px;
+    height: 125px;
+    
+    border: 1px solid lightgray;
+}
